@@ -44,6 +44,8 @@ A _genetic algorithm_ is a type of search algorithm that mimics the process of n
 
 In addition, you have the option to **dynamically adjust the mutation rate parameter** during execution using the `+` and `-` keys. This feature provides a clear and intuitive way to study the effects of mutations and can be particularly useful for optimizing the solution in real-time. Furthermore, you can reset the mutation rate to its default value by pressing the `r` key.
 
+At every execution, the result of every generation will be stored at the `results.json` file in the `data/output` directory.
+
 ## Testing
 
 The project includes a suite of tests that can be run using the following command:
