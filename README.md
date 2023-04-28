@@ -17,7 +17,7 @@ To run this project, you will need:
 
 ### 1. Setting parameters
 
-Before executing the algorithm, you can modify the configuration settings of the password guesser by editing the `config.json` file in the `data/input directory`. The following parameters can be changed:
+Before executing the algorithm, you can modify the configuration settings of the password guesser by editing the `config.json` file in the `data/input` directory. The following parameters can be changed:
 
 * `translate_to_bits`: this parameter enables the parsing of the target password into its binary expression, providing an optimized approach for the genetic algorithm application. When activated, the program will only test binary values, while if deactivated, it will consider a wide ASCII spectrum. By default, this parameter is set to `true`.
 * `show_plot`: enabling this parameter to `true` will activate a real-time plot of the fitness value being optimized by the algorithm, which provides a useful visualization but may also result in slower execution, particularly during the running of Pytest scripts.
